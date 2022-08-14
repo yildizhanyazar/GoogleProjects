@@ -4,58 +4,78 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./index.css" />
       <title>Google</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="icon"
+         href="https://www.google.com/favicon.ico"
+         type="image/x-icon"
+      />
    </head>
+
    <body>
-      <div class="mainBlok">
-         <section id="logo">
-            <article>
-               <img src="./img/google.jpg" alt="Google'un Logosu!" />
-            </article>
-         </section>
-      </div>
-      <div class="mainBlok">
-         <section id="logo">
-            <article>
-               <p>Search the web using Google!</p>
-               <input type="search" name="" id="search" /><br /><br /><br />
-               <button>Google Search</button>
-               <button>I'm Feeling Lucky</button>
-            </article>
-         </section>
-         <br />
-         <section class="bcgrnd">
-            <div class="activ">
-               <ul>
-                  <li>Special Searches</li>
-                  <li><a href="#">Stanford Search</a></li>
-                  <li><a href="#">Linux Search</a></li>
-               </ul>
+      <div class="container">
+         <nav class="navbar">
+            <div class="right-bar">
+               <a href="gmail.html">Gmail</a>
+               <a href="gorseller.html">Görseller</a>
+               <a href="uygulamalar.html"
+                  ><img
+                     class="apps"
+                     src="svg/Uygulamalar.svg"
+                     alt="Uygulamalar"
+               /></a>
+               <a href="Profil.html"
+                  ><img class="profile" src="img/Profile.png" alt="Profile"
+               /></a>
             </div>
-            <div class="activ">
-               <ul>
-                  <li><a href="#">Help!</a></li>
-                  <li><a href="#">About Google!</a></li>
-                  <li><a href="#">Company Info</a></li>
-                  <li><a href="#">Google! Logos</a></li>
-               </ul>
-            </div>
-            <div class="activ">
-               <ul>
-                  <li>Get Google!</li>
-                  <li>updates montly:</li>
-                  <li>
-                     <input
-                        type="search"
-                        placeholder="your e-mail"
-                     /><br /><button>Subscribe</button> <a href="#">Archive</a>
-                  </li>
-               </ul>
+         </nav>
+         <section class="main">
+            <div class="Google-logo">
+               <img src="img/googlelogo_color_272x92dp.png" alt="Google-logo" />
             </div>
          </section>
-         <br />
-         <div id="footer">Copyright @ 1998 Google Inc</div>
+         <form class="input">
+            <div class="search-bar">
+               <span class="search-icon">
+                  <img src="svg/search-icon.svg" alt="search-icon"
+               /></span>
+               <input type="text" />
+
+               <img
+                  src="https://www.gstatic.com/inputtools/images/tia.png"
+                  alt="klavye"
+               />
+               <img class="mic" src="svg/mic-icon.svg" alt="mikrofon" />
+            </div>
+            <div class="button">
+               <button>Google'da Ara</button>
+               <button>Kendimi Şanslı Hissediyorum</button>
+            </div>
+         </form>
+         <footer>
+            <div class="footerUp">
+               <a href="#" class="fromUs">Türkiye</a>
+            </div>
+            <div class="footerDown">
+               <div class="footerInfo footerApp">
+                  <a href="#">Reklam</a>
+                  <a href="#">İşletme</a>
+                  <a href="#">Arama nasıl çalışıyor?</a>
+                  <a href="#">Hakkında</a>
+               </div>
+               <div class="footerInfo footerIcon">
+                  <a href="#">
+                     <span class="footeryazı">2009 ' dan bu yana</span>
+                  </a>
+               </div>
+               <div class="footerInfo footerInfoS">
+                  <a href="#">Ayarlar</a>
+                  <a href="#">Şartlar</a>
+                  <a href="#">Gizlilik</a>
+               </div>
+            </div>
+         </footer>
       </div>
    </body>
 </html>

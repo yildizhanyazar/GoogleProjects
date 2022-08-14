@@ -1,0 +1,221 @@
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  padding: 6px;
+  width: 98%;
+  justify-content: flex-end;
+}
+
+.right-bar {
+  margin: 5px 10px;
+  float: right;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-right: -5px;
+}
+.right-bar .apps {
+  max-width: 40px;
+  max-height: 40px;
+  box-sizing: border-box;
+  padding: 8px;
+  opacity: 0.6;
+}
+.right-bar .profile {
+  border-radius: 50%;
+}
+.right-bar a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+  text-decoration: none;
+}
+.right-bar a:hover {
+  text-decoration: underline;
+}
+.right-bar a:visited {
+  color: black;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 195px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  max-height: 193px;
+  box-sizing: border-box;
+}
+.main .Google-logo {
+  max-height: 92px;
+  position: relative;
+  margin-top: auto;
+}
+.input {
+  height: 160px;
+  padding: 20px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 584px;
+  margin: 0 auto;
+  padding: 6px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  padding: 5px 8px 5px 14px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+input {
+  display: flex;
+  flex: 1;
+  border: none;
+  font-size: 14px;
+
+  outline: none;
+  height: 34px;
+}
+.search-bar:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  padding-right: 13px;
+}
+@media (max-height: 360px) {
+  .main {
+    height: 92px;
+  }
+}
+.search-bar > img {
+  display: block;
+  width: 24px;
+  height: auto;
+  padding: 0px 2.5px;
+  box-sizing: border-box;
+  margin: 0px 8px;
+}
+.mic {
+  box-sizing: content-box !important;
+  padding: 0 !important;
+  height: 24px !important;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+}
+.button button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0 8px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.button button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: block;
+  background-color: #f2f2f2;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.fromUs{
+  text-decoration:none;
+  color:#70757a ;
+  padding: 0 10px;
+}
+.footerUp {
+  display: block;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+}
+.footerDown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.footerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerApp {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.footerDown a {
+  display: block;
+  padding: 3%;
+  white-space: nowrap;
+  color: #70757a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerIcon {
+  order: 2;
+}
+.yaprak {
+  height: 14px;
+  margin-right: 6px;
+}
+.footeryazı {
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.footerInfoS {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+}
+.footerInfo a:hover {
+  text-decoration: underline;
+}
